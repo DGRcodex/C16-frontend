@@ -1,3 +1,5 @@
+
+
 /* Estilos base para todos los dispositivos */
 .baseContainer {
     width: 100%;
@@ -38,7 +40,7 @@
 @media (min-width: 820px) {
     .desktopContainer {
         display: flex;
-        width: 80%;
+        width: 95%;
         height: 18rem;
         flex-direction: row;
         align-items: center;
@@ -51,21 +53,21 @@
         overflow: hidden;
     }
 
-    .quienesSomosBannerImg {
-        width: 40%;
+    .BannerImg {
+        width: 50%;
         height: 100%;
-        object-fit: cover;
+        object-fit: contain;
         border-top-left-radius: 1.1rem;
         border-bottom-left-radius: 1.1rem;
        
     }
 
     .BannerTextBox {
-        width: 60%;
+        width: 41%;
         height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         padding: 4rem 3rem;
         gap: 0.8rem;
