@@ -10,7 +10,7 @@ function DinamicBanner({ imageSrc, title, message, customStyles }) {
                   height={150} 
                   alt='banner image'
                    src={imageSrc} className={`${styles.bannerImg} ${customStyles.bannerImg}`} />
-            </section>
+            
 
             <div className={`${styles.bannerTextBox} ${customStyles.bannerTextBox}`}>
    
@@ -18,6 +18,7 @@ function DinamicBanner({ imageSrc, title, message, customStyles }) {
                     <span className={`${styles.bannerMessage} ${customStyles.bannerMessage}`}>{message}</span>
                
             </div>
+            </section>
         </div>
     );
 }
